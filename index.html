@@ -1,77 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Dileep Kumar</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Peaceful House Architecture</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f9f9f9;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f7f6;
+      color: #333;
     }
+
     header {
-      background-color: #4CAF50;
+      background-color: #e0ebe8;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #2c3e50;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .hero h2 {
       color: white;
-      padding: 1em 0;
-      text-align: center;
+      background-color: rgba(0,0,0,0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      font-size: 2rem;
     }
-    nav {
-      background-color: #333;
-      overflow: hidden;
+
+    .content {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
     }
-    nav a {
-      float: left;
-      display: block;
-      color: #fff;
-      text-align: center;
-      padding: 14px 20px;
-      text-decoration: none;
+
+    .content h3 {
+      font-size: 1.8rem;
+      color: #34495e;
     }
-    nav a:hover {
-      background-color: #575757;
+
+    .content p {
+      line-height: 1.6;
+      font-size: 1.1rem;
     }
-    main {
-      padding: 20px;
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
     }
+
+    .gallery img {
+      width: calc(33% - 1rem);
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      object-fit: cover;
+    }
+
     footer {
-      background-color: #4CAF50;
-      color: white;
       text-align: center;
-      padding: 10px 0;
-      position: fixed;
-      width: 100%;
-      bottom: 0;
+      padding: 1.5rem;
+      background-color: #e0ebe8;
+      margin-top: 3rem;
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>NAMASTEEEE</h1>
+    <h1>Peaceful House Architecture</h1>
   </header>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-  </nav>
+  <div class="hero">
+    <h2>Minimalism Meets Nature</h2>
+  </div>
 
-  <main>
-    <h2>PAGE DETAILS KAVALAA</h2>
-    <p>This is a basic HTML web page example. You can expand it with more content, images, forms, or JavaScript features.</p>
+  <div class="content">
+    <h3>Design Philosophy</h3>
+    <p>
+      Peaceful house architecture is about harmony — with nature, with space, and with yourself. It emphasizes natural light, open spaces, sustainable materials, and neutral tones that calm the mind and inspire serenity.
+    </p>
 
-    <h3>Features:</h3>
-    <ul>
-      <li>Responsive layout</li>
-      <li>Simple navigation bar</li>
-      <li>Footer that stays at the bottom</li>
-    </ul>
-  </main>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80" alt="Modern tranquil home" />
+      <img src="https://images.unsplash.com/photo-1588854337221-4b8b9f7d9a4b?auto=format&fit=crop&w=800&q=80" alt="Peaceful living room" />
+      <img src="https://images.unsplash.com/photo-1586483944864-74961fa0b4f7?auto=format&fit=crop&w=800&q=80" alt="Nature inspired design" />
+    </div>
+  </div>
 
   <footer>
-    &copy; 2025 BCA FILAL YEAR
+    &copy; 2025 Peaceful Homes. Designed with serenity in mind.
   </footer>
 
 </body>
